@@ -7,7 +7,7 @@ with open('README.rst') as f:
     readme = f.read()
 
 setup(
-    name='django-taggit-tronc',
+    name='django-taggit',
     version='.'.join(str(i) for i in taggit.VERSION),
     description='django-taggit is a reusable Django application for simple tagging.',
     long_description=readme,
