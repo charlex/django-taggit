@@ -7,12 +7,12 @@ with open('README.rst') as f:
     readme = f.read()
 
 setup(
-    name='django-taggit',
+    name='django-taggit-tronc',
     version='.'.join(str(i) for i in taggit.VERSION),
     description='django-taggit is a reusable Django application for simple tagging.',
     long_description=readme,
-    author='Alex Gaynor',
-    author_email='alex.gaynor@gmail.com',
+    author='Maintained by Charley Bodkin / Tronc. Originally by Alex Gaynor',
+    author_email='charley.bodkin@latimes.com',
     url='http://github.com/alex/django-taggit/tree/master',
     packages=find_packages(exclude=('tests*',)),
     package_data = {
