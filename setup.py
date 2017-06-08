@@ -13,7 +13,7 @@ setup(
     long_description=readme,
     author='Maintained by Charley Bodkin / Tronc. Originally by Alex Gaynor',
     author_email='charley.bodkin@latimes.com',
-    url='http://github.com/alex/django-taggit/tree/master',
+    url='https://github.com/troncx/django-taggit',
     packages=find_packages(exclude=('tests*',)),
     package_data = {
         'taggit': [
